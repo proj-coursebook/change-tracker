@@ -1,0 +1,21 @@
+{
+  "name": "change-tracker-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal example usage of change-tracker.",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx --no-warnings ./index.ts",
+    "build": "tsc",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@coursebook/change-tracker": "file:../../packages/change-tracker"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.0.0"
+  }
+} 
